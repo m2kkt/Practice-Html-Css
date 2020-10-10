@@ -1,0 +1,96 @@
+body {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: 400px;
+  height: 400px;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rotate {
+  display: flex;
+  width: 50px;
+  justify-content: space-evenly;
+  align-items: center;
+  animation: rotation 1.5s ease-in-out infinite;
+}
+
+.rotate div {
+  border: 1px solid white;
+  background-color: white;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+}
+
+.wave {
+  display: flex;
+  height: 60px;
+  width: 50px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.wave div {
+  background-color: white;
+  width: 6px;
+  height: 30px;
+  animation: wave 1.5s ease-in-out infinite;
+}
+
+.wave div:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.wave div:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.wave div:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.wave div:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.wave div:nth-child(5) {
+  animation-delay: 0.5s;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotateZ(0);
+  }
+
+  100% {
+    transform: rotateZ(180deg);
+  }
+}
+
+@keyframes wave {
+  0% {
+    height: 30px;
+  }
+
+  25% {
+    height: 60px;
+  }
+
+  50% {
+    height: 30px;
+  }
+
+  100% {
+    height: 30px;
+  }
+}

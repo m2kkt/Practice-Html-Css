@@ -1,0 +1,130 @@
+.screen-summary__album-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.screen-summary__album-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 20px rgba(22, 24, 0, 0.5);
+}
+
+.screen-summary__album-title {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.screen-summary__album-genre {
+  color: var(--trasparency-color);
+  font-size: 11px;
+  margin-bottom: 30px;
+}
+
+.screen-summary__control-btn {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+}
+
+.screen-summary__shuffle-btn {
+  font-size: 12px;
+}
+
+.screen-summary__like-btn {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: var(--trasparency-color);
+  font-size: 13px;
+  box-shadow: var(--shadow-box);
+}
+
+.screen-summary__like-btn i {
+  margin-right: 3px;
+  color: black;
+}
+
+.screen-summary__music-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.screen-summary__music-list-col {
+  display: flex;
+  width: 240px;
+  height: 60px;
+  padding: 10px;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.screen-summary__music-list-col:nth-child(2) {
+  box-shadow: var(--shadow-box);
+}
+
+.screen-summary__music-list-col i {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 12px;
+}
+
+.screen-summary__music-album-title {
+  font-size: 11px;
+  color: var(--trasparency-color);
+  padding-right: 40px;
+  margin-bottom: 8px;
+}
+
+.screen-summary__music-title {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.screen-summary__summary-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen-summary__btn-summary {
+  width: 240px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scrren-summary__play-info {
+  padding-left: 15px;
+}
+
+.screen-summary__play-album {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 8px;
+}
+
+.screen-summary__play-title {
+  font-size: 10px;
+}
+
+.screen-summary__play-btn {
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+}
+
+.screen-summary__play-btn i {
+  margin-left: 20px;
+  font-size: 10px;
+}
+
+.screen-summary__play-btn i:nth-child(2) {
+  font-size: 15px;
+}

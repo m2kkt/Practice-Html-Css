@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 400px;
+  height: 850px;
+  border: 6px #00c6ad solid;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 60px 30px 50px 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-col {
+  width: 33%;
+}
+
+.header-col:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+header span {
+  font-size: 25px;
+}
+
+.font--bold {
+  font-weight: 1000;
+}
+
+.now-playing {
+  display: flex;
+  align-items: center;
+}
+
+.now-playing__album {
+  margin: 50px 20px 40px 0px;
+  width: 140px;
+  height: 140px;
+  background-color: #ffbd11;
+  border: 3px black solid;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
+
+.now-playing__album i {
+  color: white;
+}
+
+.now-playing__info__title {
+  font-size: 40px;
+  width: 150px;
+  margin-bottom: 12px;
+  line-height: 1.1;
+}
+
+.now-playing__info__artist {
+  font-weight: 600;
+}
+
+.button-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.button-bar__play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 60px;
+  border: solid black;
+  border-width: 3px 3px 6px 3px;
+  border-radius: 20px;
+}
+
+.button-bar__play span {
+  margin-left: 10px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.button-bar__like,
+.button-bar__add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border: solid black;
+  border-width: 3px 3px 6px 3px;
+  border-radius: 50%;
+}
+
+.music-list > div {
+  display: flex;
+  margin-bottom: 45px;
+  align-items: center;
+}
+
+.music-list__album {
+  width: 60px;
+  height: 60px;
+  border: 3px solid black;
+  border-radius: 15px;
+  margin-right: 15px;
+}
+
+.test:nth-child(1) .music-list__album {
+  background-color: tomato;
+}
+
+.test:nth-child(2) .music-list__album {
+  background-color: plum;
+}
+
+.test:nth-child(3) .music-list__album {
+  background-color: royalblue;
+}
+
+.test:nth-child(4) .music-list__album {
+  background-color: #00c6ad;
+}
+
+.music-list__info__title {
+  font-size: 25px;
+  margin-bottom: 10px;
+}

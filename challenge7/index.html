@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>You Are Awesome!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="screen-container">
+      <!-- first screen -->
+
+      <div class="screen screen-summary">
+        <header class="component__menu-bar">
+          <i class="fas fa-arrow-left"></i>
+          <i class="fas fa-search"></i>
+        </header>
+
+        <div class="screen-summary__album-info">
+          <img
+            src="data:image/jpeg;base64,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"
+            class="screen-summary__album-img"
+          />
+          <h1 class="screen-summary__album-title">MAP OF THE SOUL : 7</h1>
+          <h4 class="screen-summary__album-genre">K-POP, DANCE</h4>
+        </div>
+
+        <div class="screen-summary__control-btn">
+          <div class="btn screen-summary__shuffle-btn">Shuffle</div>
+          <div class="btn screen-summary__like-btn">
+            <i class="fas fa-heart"></i>
+            212,971
+          </div>
+        </div>
+
+        <div class="screen-summary__music-list">
+          <div class="screen-summary__music-list-col">
+            <img
+              src="data:image/jpeg;base64,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"
+              class="component__music-img"
+            />
+            <div class="screen-summary__music-info">
+              <div class="screen-summary__music-album-title">
+                MAP OF THE SOUL : 7
+              </div>
+              <div class="screen-summary__music-title">Intro: Persona</div>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+          <div class="screen-summary__music-list-col">
+            <img
+              src="data:image/jpeg;base64,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"
+              class="component__music-img"
+            />
+            <div class="screen-summary__music-info">
+              <div class="screen-summary__music-album-title">
+                MAP OF THE SOUL : 7
+              </div>
+              <div class="screen-summary__music-title">Boy With Luv</div>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+          <div class="screen-summary__music-list-col">
+            <img
+              src="data:image/jpeg;base64,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"
+              class="component__music-img"
+            />
+            <div class="screen-summary__music-info">
+              <div class="screen-summary__music-album-title">
+                MAP OF THE SOUL : 7
+              </div>
+              <div class="screen-summary__music-title">Make It Right</div>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+          <div class="screen-summary__music-list-col">
+            <img
+              src="data:image/jpeg;base64,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"
+              class="component__music-img"
+            />
+            <div class="screen-summary__music-info">
+              <div class="screen-summary__music-album-title">
+                MAP OF THE SOUL : 7
+              </div>
+              <div class="screen-summary__music-title">Jamias Wu</div>
+            </div>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+        </div>
+
+        <div class="screen-summary__summary-container">
+          <div class="btn screen-summary__btn-summary">
+            <div class="scrren-summary__play-info">
+              <div class="screen-summary__play-album">MAP OF THE SOUL : 7</div>
+              <div class="screen-summary__play-title">Boy With Luv</div>
+            </div>
+            <div class="screen-summary__play-btn">
+              <i class="fas fa-step-backward"></i>
+              <i class="fas fa-pause"></i>
+              <i class="fas fa-step-forward"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- second screen -->
+      <div class="screen screen-now-play">
+        <header class="component__menu-bar">
+          <i class="fas fa-arrow-left"></i>
+          <i class="fas fa-ellipsis-v"></i>
+        </header>
+
+        <div class="screen-now-play__main_container">
+          <img
+            src="https://img-mdpr.freetls.fastly.net/article/JoI1/nm/JoI12Tai_v9LLJkNOdCcn-tVah6ebdqFNF7MaACURcA.jpg?width=700&disable=upscale&auto=webp"
+            class="component__music-img screen-now-play__music-img"
+          />
+
+          <div class="screen-now-play__music-info">
+            <div class="screen-now-play__title">Boy With Luv</div>
+            <div class="screen-now-play__album">MAP OF THE SOUL : 7</div>
+          </div>
+
+          <div class="screen-now-play_play-time">
+            <span class="screen-now-play__time-start">1:56</span>
+            <span class="screen-now-play__time-last">2:21</span>
+            <div class="screen-now-play__time-bar">
+              <div class="screen-now-play__played"></div>
+              <div class="screen-now-play__playing-point"></div>
+              <div class="screen-now-play__remaind"></div>
+            </div>
+          </div>
+
+          <div class="screen-now-play__play-btn">
+            <i class="fas fa-retweet"></i>
+            <i class="fas fa-step-backward"></i>
+            <i class="fas fa-play"></i>
+            <i class="fas fa-step-forward"></i>
+            <i class="fas fa-random"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

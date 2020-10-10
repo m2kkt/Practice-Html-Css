@@ -1,0 +1,13 @@
+.screen-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.screen {
+  width: 270px;
+  height: 590px;
+  border-radius: 20px;
+  background-color: white;
+}
